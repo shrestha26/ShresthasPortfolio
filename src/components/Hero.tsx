@@ -31,10 +31,14 @@ const Hero = () => {
                   <div className="w-full h-full rounded-full bg-gray-900"></div>
                 </div>
                 
-                {/* Profile image placeholder with professional styling */}
+                {/* Profile image */}
                 <div className="absolute inset-4 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-600/20 flex items-center justify-center backdrop-blur-sm border border-gray-600/30">
-                  <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-700 to-gray-800 flex items-center justify-center shadow-inner">
-                    <User size={60} className="text-gray-300" />
+                  <div className="w-full h-full rounded-full overflow-hidden shadow-inner">
+                    <img
+                      src="/profile.jpeg"  // Replace with the path to your image
+                      alt="Shrestha Behera"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
                 

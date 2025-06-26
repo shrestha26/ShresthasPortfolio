@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'Multimedia Translator',
-      organization: 'DRDO/ISRO',
+      organization: 'DRDO',
       period: '2023-2024',
       description: 'Advanced multilingual intelligence decryption system designed for national defense applications.',
       longDescription: 'Designed and developed a sophisticated multimedia translator to decrypt multilingual terrorist intelligence for the Indian Army. The system integrates AI-powered translation with secure communication protocols.',

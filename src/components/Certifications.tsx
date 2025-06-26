@@ -37,7 +37,7 @@ const Certifications = () => {
     status: 'Completed',
     description: 'Comprehensive course covering database design, SQL, and data management principles.',
     color: 'from-green-500 to-emerald-500',
-    url: '' // Add URL if available
+    url: 'https://www.linkedin.com/feed/update/urn:li:activity:6907053085265641472/' 
   },
   {
     title: 'JPMorgan Chase Software Engineering Simulation',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Shield, Cloud, Terminal, Cpu } from 'lucide-react';
+import { Code, Database, Shield, Cloud, Terminal, Cpu, Download } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -43,7 +43,7 @@ const Skills = () => {
             Technical Skills
           </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {skillCategories.map((category, index) => (
               <div
                 key={category.title}
@@ -68,6 +68,18 @@ const Skills = () => {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Download Resume Button */}
+          <div className="text-center">
+            <a
+              href="/ShresthaBeheraResumelatest.pdf"
+              download="ShresthaBeheraResumelatest.pdf"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-200"
+            >
+              <Download size={18} />
+              Download Resume
+            </a>
           </div>
         </div>
       </div>

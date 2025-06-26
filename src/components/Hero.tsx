@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown, Github, Linkedin, Mail, Phone, User } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -49,7 +49,7 @@ const Hero = () => {
               </div>
               
               {/* Professional title badge */}
-              <div className="inline-block px-4 py-2 bg-gray-800/80 backdrop-blur-sm rounded-full border border-gray-600/30 mb-4">
+              <div className="inline-block px-4 py-2 bg-gray-800/80 backdrop-blur-sm rounded-full border border-gray-600/30 mb-2">
                 <span className="text-sm font-medium bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                   Available for Opportunities
                 </span>
@@ -57,7 +57,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
             Shrestha Behera
           </h1>
           
@@ -107,17 +107,19 @@ const Hero = () => {
           </div>
 
           {/* CTA Button */}
-          <button
-            onClick={scrollToAbout}
-            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl animate-fade-in-up delay-400"
-          >
-            Explore My Work
-          </button>
-        </div>
+          <div>
+            <button
+              onClick={scrollToAbout}
+              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl animate-fade-in-up delay-400"
+            >
+              Explore My Work
+            </button>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown size={32} className="text-gray-400" />
+            {/* Scroll Indicator (moved below the button) */}
+            <div className="mt-6 animate-bounce">
+              <ChevronDown size={28} className="text-gray-400 mx-auto" />
+            </div>
+          </div>
         </div>
       </div>
     </section>

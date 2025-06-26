@@ -19,7 +19,7 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image Section */}
+          {/* Profile Image Section (Moved Below Navbar) */}
           <div className="mb-8 animate-fade-in">
             <div className="relative inline-block">
               <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-6 relative">
@@ -47,17 +47,10 @@ const Hero = () => {
                   <div className="w-full h-full bg-green-400 rounded-full animate-ping opacity-75"></div>
                 </div>
               </div>
-              
-              {/* Professional title badge */}
-              <div className="inline-block px-4 py-2 bg-gray-800/80 backdrop-blur-sm rounded-full border border-gray-600/30 mb-2">
-                <span className="text-sm font-medium bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                  Available for Opportunities
-                </span>
-              </div>
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
             Shrestha Behera
           </h1>
           

@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-gray-900"></div>
-      
+
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -20,8 +20,8 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Profile Image Section */}
-          <div className="mb-2 animate-fade-in"> {/* Reduced margin bottom further */}
-            <div className="relative inline-block mt-8"> {/* Reduced margin top to move photo closer */}
+          <div className="mt-6 mb-2 animate-fade-in">
+            <div className="relative inline-block">
               <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-6 relative">
                 {/* Animated border rings */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 p-1 animate-pulse">
@@ -30,18 +30,18 @@ const Hero = () => {
                 <div className="absolute inset-2 rounded-full bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 p-1 animate-pulse delay-500">
                   <div className="w-full h-full rounded-full bg-gray-900"></div>
                 </div>
-                
+
                 {/* Profile image */}
                 <div className="absolute inset-4 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-600/20 flex items-center justify-center backdrop-blur-sm border border-gray-600/30">
                   <div className="w-full h-full rounded-full overflow-hidden shadow-inner">
                     <img
-                      src="/profile.jpeg"  // Replace with the path to your image
+                      src="/profile.jpeg"
                       alt="Shrestha Behera"
                       className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
-                
+
                 {/* Status indicator */}
                 <div className="absolute bottom-2 right-2 w-6 h-6 bg-green-500 rounded-full border-4 border-gray-900 animate-pulse">
                   <div className="w-full h-full bg-green-400 rounded-full animate-ping opacity-75"></div>
@@ -50,14 +50,14 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
             Shrestha Behera
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-up">
             Cybersecurity Expert • Software Engineer • Cloud Solutions Architect
           </p>
-          
+
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-200">
             Passionate about securing digital infrastructures and building scalable solutions. 
             Experience with DRDO, JPMorgan Chase, AWS, and Deloitte.
@@ -108,7 +108,7 @@ const Hero = () => {
               Explore My Work
             </button>
 
-            {/* Scroll Indicator (moved below the button) */}
+            {/* Scroll Indicator */}
             <div className="mt-6 animate-bounce">
               <ChevronDown size={28} className="text-gray-400 mx-auto" />
             </div>

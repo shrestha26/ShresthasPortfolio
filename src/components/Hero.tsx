@@ -19,9 +19,9 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image Section (Moved Below Navbar) */}
-          <div className="mb-8 animate-fade-in">
-            <div className="relative inline-block">
+          {/* Profile Image Section */}
+          <div className="mb-4 animate-fade-in"> {/* Reduced margin bottom here */}
+            <div className="relative inline-block mt-12"> {/* Added margin top to push photo lower */}
               <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-6 relative">
                 {/* Animated border rings */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 p-1 animate-pulse">
@@ -50,7 +50,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-fade-in">
             Shrestha Behera
           </h1>
           

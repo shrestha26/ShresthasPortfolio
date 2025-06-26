@@ -99,19 +99,27 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* CTA Button */}
-          <div>
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 animate-fade-in-up delay-400">
             <button
               onClick={scrollToAbout}
-              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl animate-fade-in-up delay-400"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Explore My Work
             </button>
 
-            {/* Scroll Indicator */}
-            <div className="mt-6 animate-bounce">
-              <ChevronDown size={28} className="text-gray-400 mx-auto" />
-            </div>
+            <a
+              href="/ShresthaBeheraResumelatest.pdf"
+              download="ShresthaBeheraResumelatest.pdf"
+              className="bg-gray-800 hover:bg-gray-700 px-8 py-4 rounded-full text-lg font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+            >
+              Download Resume
+            </a>
+          </div>
+
+          {/* Scroll Indicator */}
+          <div className="mt-6 animate-bounce">
+            <ChevronDown size={28} className="text-gray-400 mx-auto" />
           </div>
         </div>
       </div>

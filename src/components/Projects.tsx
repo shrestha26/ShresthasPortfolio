@@ -35,7 +35,7 @@ const Projects = () => {
       ],
       technologies: ['React.js', 'MongoDB', 'JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/shrestha26/Space-Scientific-Calculator',
-      liveUrl: https://astounding-cendol-d4f12b.netlify.app/,
+      liveUrl: 'https://astounding-cendol-d4f12b.netlify.app/', // Ensure this URL is valid
       icon: <Code className="text-blue-400" size={24} />,
       color: 'from-blue-500 to-cyan-500'
     },
@@ -53,7 +53,7 @@ const Projects = () => {
       ],
       technologies: ['PHP', 'TypeScript', 'MySQL', 'JavaScript', 'Burp Suite'],
       githubUrl: 'https://github.com/shrestha26/ATM-software',
-      liveUrl: https://vocal-gumdrop-b800ec.netlify.app/,
+      liveUrl: 'https://vocal-gumdrop-b800ec.netlify.app/',
       icon: <Shield className="text-green-400" size={24} />,
       color: 'from-green-500 to-emerald-500'
     },
@@ -70,7 +70,7 @@ const Projects = () => {
         'Model performance comparisons'
       ],
       technologies: ['React', 'TailwindCSS', 'Chart.js', 'Python', 'Netlify'],
-      githubUrl: https://github.com/shrestha26/Machine-Learning-Stock-Prediction,
+      githubUrl: 'https://github.com/shrestha26/Machine-Learning-Stock-Prediction',
       liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
       icon: <TrendingUp className="text-purple-400" size={24} />,
       color: 'from-purple-500 to-pink-500'

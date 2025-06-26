@@ -70,18 +70,7 @@ const Skills = () => {
             ))}
           </div>
 
-          {/* Download Resume Button */}
-          <div className="text-center">
-            <a
-              href="/ShresthaBeheraResumelatest.pdf"
-              download="ShresthaBeheraResumelatest.pdf"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-200"
-            >
-              <Download size={18} />
-              Download Resume
-            </a>
-          </div>
-        </div>
+         </div>
       </div>
     </section>
   );

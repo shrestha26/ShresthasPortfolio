@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Shield, Cloud, Terminal, Cpu, Download } from 'lucide-react';
+import { Code, Database, Shield, Cloud, Terminal, Cpu } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -43,12 +43,12 @@ const Skills = () => {
             Technical Skills
           </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
               <div
                 key={category.title}
                 className="bg-gray-800/50 p-6 rounded-xl hover:bg-gray-800/70 transition-all duration-300 hover:scale-105 hover:shadow-xl"
-                style={{ animationDelay: `${index * 100}ms` }}
+                style={{ animationDelay: ${index * 100}ms }}
               >
                 <div className="flex items-center gap-3 mb-4">
                   {category.icon}
@@ -60,7 +60,7 @@ const Skills = () => {
                     <span
                       key={skill}
                       className="px-3 py-1 bg-gray-700 text-sm rounded-full hover:bg-gray-600 transition-colors duration-200"
-                      style={{ animationDelay: `${(index * 100) + (skillIndex * 50)}ms` }}
+                      style={{ animationDelay: ${(index * 100) + (skillIndex * 50)}ms }}
                     >
                       {skill}
                     </span>
@@ -68,18 +68,6 @@ const Skills = () => {
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Download Resume Button */}
-          <div className="text-center">
-            <a
-              href="/ShresthaBeheraResumelatest.pdf"
-              download="ShresthaBeheraResumelatest.pdf"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-200"
-            >
-              <Download size={18} />
-              Download Resume
-            </a>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'Multimedia Translator',
       organization: 'DRDO/ISRO',
-      period: '2023',
+      period: '2023-2024',
       description: 'Advanced multilingual intelligence decryption system designed for national defense applications.',
       longDescription: 'Designed and developed a sophisticated multimedia translator to decrypt multilingual terrorist intelligence for the Indian Army. The system integrates AI-powered translation with secure communication protocols.',
       features: [
@@ -17,7 +17,7 @@ const Projects = () => {
       ],
       technologies: ['Python', 'FFmpeg', 'NLP libraries', 'Linux', 'REST APIs'],
       githubUrl: 'https://github.com/shrestha26/Multimedia-Translator',
-      liveUrl: null,
+      liveUrl: 'https://shrestha26.github.io/Multimedia-Translator/',
       icon: <Shield className="text-red-400" size={24} />,
       color: 'from-red-500 to-orange-500'
     },
@@ -35,7 +35,7 @@ const Projects = () => {
       ],
       technologies: ['React.js', 'MongoDB', 'JavaScript', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/shrestha26/Space-Scientific-Calculator',
-      liveUrl: null,
+      liveUrl: https://astounding-cendol-d4f12b.netlify.app/,
       icon: <Code className="text-blue-400" size={24} />,
       color: 'from-blue-500 to-cyan-500'
     },
@@ -53,7 +53,7 @@ const Projects = () => {
       ],
       technologies: ['PHP', 'TypeScript', 'MySQL', 'JavaScript', 'Burp Suite'],
       githubUrl: 'https://github.com/shrestha26/ATM-software',
-      liveUrl: null,
+      liveUrl: https://vocal-gumdrop-b800ec.netlify.app/,
       icon: <Shield className="text-green-400" size={24} />,
       color: 'from-green-500 to-emerald-500'
     },
@@ -70,7 +70,7 @@ const Projects = () => {
         'Model performance comparisons'
       ],
       technologies: ['React', 'TailwindCSS', 'Chart.js', 'Python', 'Netlify'],
-      githubUrl: null,
+      githubUrl: https://github.com/shrestha26/Machine-Learning-Stock-Prediction,
       liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
       icon: <TrendingUp className="text-purple-400" size={24} />,
       color: 'from-purple-500 to-pink-500'

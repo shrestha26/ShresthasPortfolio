@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown, Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, Mail, Phone, Download } from 'lucide-react';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -103,7 +103,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 animate-fade-in-up delay-400">
             <button
               onClick={scrollToAbout}
-              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Explore My Work
             </button>
@@ -111,8 +111,9 @@ const Hero = () => {
             <a
               href="/ShresthaBeheraResumelatest.pdf"
               download="ShresthaBeheraResumelatest.pdf"
-              className="bg-gray-800 hover:bg-gray-700 px-8 py-4 rounded-full text-lg font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
+              <Download size={20} />
               Download Resume
             </a>
           </div>

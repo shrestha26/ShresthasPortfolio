@@ -16,7 +16,8 @@ const Experience = () => {
         'Contributed to cyber defense strategies by leveraging AI tools in threat detection and translation pipelines'
       ],
       tools: ['Python', 'FFmpeg', 'NLP libraries', 'Linux', 'Git', 'REST APIs', 'JSON', 'Shell scripting'],
-      color: 'from-red-500 to-orange-500'
+      color: 'from-red-500 to-orange-500',
+      link: 'https://www.linkedin.com/in/shrestha-behera/overlay/1750847936643/single-media-viewer/?profileId=ACoAADJgi7ABSITgjcmNKE1zsaqvNnhMTBZXxnI'
     },
     {
       title: 'Software Engineering Intern',
@@ -83,8 +84,21 @@ const Experience = () => {
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold mb-2">{exp.title}</h3>
-                    <div className={`text-xl font-semibold mb-2 bg-gradient-to-r ${exp.color} bg-clip-text text-transparent`}>
-                      {exp.company}
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className={`text-xl font-semibold bg-gradient-to-r ${exp.color} bg-clip-text text-transparent`}>
+                        {exp.company}
+                      </div>
+                      {exp.link && (
+                        <a
+                          href={exp.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-400 hover:text-blue-300 transition-colors"
+                          title="Visit website"
+                        >
+                          <ExternalLink size={18} />
+                        </a>
+                      )}
                     </div>
                     <div className="flex flex-wrap gap-4 text-gray-400 text-sm mb-2">
                       <div className="flex items-center gap-1">

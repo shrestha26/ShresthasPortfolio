@@ -31,28 +31,14 @@ const Header = () => {
             Shrestha Behera
           </div>
           
-         {/* Desktop Navigation */}
-<div className="hidden md:flex space-x-8">
-  {['About', 'Skills', 'Experience', 'Education', 'Certifications', 'Projects', 'Contact'].map((item) => (
-    <button
-      key={item}
-      onClick={() => scrollToSection(item.toLowerCase())}
-      className="text-gray-300 hover:text-white transition-colors duration-200 hover:scale-105"
-    >
-      {item}
-    </button>
-  ))}
-
-  {/* Downloadable Resume Button */}
-  <a
-    href="/ShresthaBeheraResumelatest.pdf"
-    download="ShresthaBehera_Resume.pdf"
-    className="text-gray-300 hover:text-white transition-colors duration-200 hover:scale-105"
-  >
-    Resume
-  </a>
-</div>
-
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex space-x-8">
+            {['About', 'Skills', 'Experience', 'Education', 'Certifications', 'Projects', 'Contact'].map((item) => (
+              <button
+                key={item}
+                onClick={() => scrollToSection(item.toLowerCase())}
+                className="text-gray-300 hover:text-white transition-colors duration-200 hover:scale-105"
+              >
                 {item}
               </button>
             ))}

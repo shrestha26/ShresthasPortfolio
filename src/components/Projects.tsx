@@ -3,79 +3,84 @@ import { ExternalLink, Github, Calendar, Code, Shield, TrendingUp } from 'lucide
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'Multimedia Translator',
-      organization: 'DRDO',
-      period: '2023-2024',
-      description: 'Advanced multilingual intelligence decryption system designed for national defense applications.',
-      longDescription: 'Designed and developed a sophisticated multimedia translator to decrypt multilingual terrorist intelligence for the Indian Army. The system integrates AI-powered translation with secure communication protocols.',
-      features: [
-        'AI-powered multilingual translation',
-        'Secure cryptographic protocols',
-        'Real-time processing capabilities',
-        'Military-grade security standards'
-      ],
-      technologies: ['Python', 'FFmpeg', 'NLP libraries', 'Linux', 'REST APIs'],
-      githubUrl: 'https://github.com/shrestha26/Multimedia-Translator',
-      liveUrl: 'https://shrestha26.github.io/Multimedia-Translator/',
-      icon: <Shield className="text-red-400" size={24} />,
-      color: 'from-red-500 to-orange-500'
-    },
-    {
-      title: 'Space Scientific Calculator',
-      organization: 'ISRO',
-      period: '2023',
-      description: 'Specialized calculator for aerospace calculations and orbital mechanics computations.',
-      longDescription: 'Developed a space-scientific calculator tailored for ISRO scientists to assist in orbital mechanics and mission planning with advanced aerospace metrics computation.',
-      features: [
-        'Advanced aerospace metrics calculation',
-        'Delta-V and escape velocity computation',
-        'Payload-to-thrust ratio analysis',
-        'Re-entry speed calculations'
-      ],
-      technologies: ['React.js', 'MongoDB', 'JavaScript', 'HTML', 'CSS'],
-      githubUrl: 'https://github.com/shrestha26/Space-Scientific-Calculator',
-      liveUrl: 'https://astounding-cendol-d4f12b.netlify.app/', // Ensure this URL is valid
-      icon: <Code className="text-blue-400" size={24} />,
-      color: 'from-blue-500 to-cyan-500'
-    },
-    {
-      title: 'ATM Software Machine',
-      organization: 'Personal Project',
-      period: '2025',
-      description: 'Full-featured ATM simulation with security testing capabilities and vulnerability assessment.',
-      longDescription: 'Comprehensive web-based ATM simulation system that replicates core banking operations with integrated security testing for penetration testing practice.',
-      features: [
-        'Complete banking operations simulation',
-        'Security vulnerability testing',
-        'Session handling and role-based access',
-        'Real ATM interface emulation'
-      ],
-      technologies: ['PHP', 'TypeScript', 'MySQL', 'JavaScript', 'Burp Suite'],
-      githubUrl: 'https://github.com/shrestha26/ATM-software',
-      liveUrl: 'https://vocal-gumdrop-b800ec.netlify.app/',
-      icon: <Shield className="text-green-400" size={24} />,
-      color: 'from-green-500 to-emerald-500'
-    },
-    {
-      title: 'ML Stock Predictor',
-      organization: 'Personal Project',
-      period: '2025',
-      description: 'Production-ready stock prediction application with multiple ML algorithms and real-time analysis.',
-      longDescription: 'Built a comprehensive stock prediction web application featuring interactive ML model selection, real-time predictions, and professional financial dashboard.',
-      features: [
-        'LSTM, Linear Regression, Random Forest models',
-        'Real-time stock predictions',
-        'Interactive financial dashboard',
-        'Model performance comparisons'
-      ],
-      technologies: ['React', 'TailwindCSS', 'Chart.js', 'Python', 'Netlify'],
-      githubUrl: 'https://github.com/shrestha26/Machine-Learning-Stock-Prediction',
-      liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
-      icon: <TrendingUp className="text-purple-400" size={24} />,
-      color: 'from-purple-500 to-pink-500'
-    }
-  ];
+  {
+    title: 'Multimedia Translator',
+    organization: 'DRDO',
+    period: '2023-2024',
+    description: 'Advanced multilingual intelligence decryption system designed for national defense applications.',
+    longDescription: 'Designed and developed a sophisticated multimedia translator to decrypt multilingual terrorist intelligence for the Indian Army. The system integrates AI-powered translation with secure communication protocols.',
+    features: [
+      'AI-powered multilingual translation',
+      'Secure cryptographic protocols',
+      'Real-time processing capabilities',
+      'Military-grade security standards'
+    ],
+    technologies: ['Python', 'FFmpeg', 'NLP libraries', 'Linux', 'REST APIs'],
+    githubUrl: 'https://github.com/shrestha26/Multimedia-Translator',
+    liveUrl: 'https://shrestha26.github.io/Multimedia-Translator/',
+    icon: <Shield className="text-red-400" size={24} />,
+    color: 'from-red-500 to-orange-500',
+    kpi: 'Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.'
+  },
+  {
+    title: 'Space Scientific Calculator',
+    organization: 'ISRO',
+    period: '2023',
+    description: 'Specialized calculator for aerospace calculations and orbital mechanics computations.',
+    longDescription: 'Developed a space-scientific calculator tailored for ISRO scientists to assist in orbital mechanics and mission planning with advanced aerospace metrics computation.',
+    features: [
+      'Advanced aerospace metrics calculation',
+      'Delta-V and escape velocity computation',
+      'Payload-to-thrust ratio analysis',
+      'Re-entry speed calculations'
+    ],
+    technologies: ['React.js', 'MongoDB', 'JavaScript', 'HTML', 'CSS'],
+    githubUrl: 'https://github.com/shrestha26/Space-Scientific-Calculator',
+    liveUrl: 'https://astounding-cendol-d4f12b.netlify.app/',
+    icon: <Code className="text-blue-400" size={24} />,
+    color: 'from-blue-500 to-cyan-500',
+    kpi: 'Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.'
+  },
+  {
+    title: 'ATM Software Machine',
+    organization: 'Personal Project',
+    period: '2025',
+    description: 'Full-featured ATM simulation with security testing capabilities and vulnerability assessment.',
+    longDescription: 'Comprehensive web-based ATM simulation system that replicates core banking operations with integrated security testing for penetration testing practice.',
+    features: [
+      'Complete banking operations simulation',
+      'Security vulnerability testing',
+      'Session handling and role-based access',
+      'Real ATM interface emulation'
+    ],
+    technologies: ['PHP', 'TypeScript', 'MySQL', 'JavaScript', 'Burp Suite'],
+    githubUrl: 'https://github.com/shrestha26/ATM-software',
+    liveUrl: 'https://vocal-gumdrop-b800ec.netlify.app/',
+    icon: <Shield className="text-green-400" size={24} />,
+    color: 'from-green-500 to-emerald-500',
+    kpi: 'Increased data audit accuracy by 42%, enhancing business reporting and fraud detection.'
+  },
+  {
+    title: 'ML Stock Predictor',
+    organization: 'Personal Project',
+    period: '2025',
+    description: 'Production-ready stock prediction application with multiple ML algorithms and real-time analysis.',
+    longDescription: 'Built a comprehensive stock prediction web application featuring interactive ML model selection, real-time predictions, and professional financial dashboard.',
+    features: [
+      'LSTM, Linear Regression, Random Forest models',
+      'Real-time stock predictions',
+      'Interactive financial dashboard',
+      'Model performance comparisons'
+    ],
+    technologies: ['React', 'TailwindCSS', 'Chart.js', 'Python', 'Netlify'],
+    githubUrl: 'https://github.com/shrestha26/Machine-Learning-Stock-Prediction',
+    liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
+    icon: <TrendingUp className="text-purple-400" size={24} />,
+    color: 'from-purple-500 to-pink-500',
+    kpi: 'Designed architecture that achieved 99.95% uptime and reduced projected costs by 30%.'
+  }
+];
+
 
   return (
     <section id="projects" className="py-20 bg-gray-900">

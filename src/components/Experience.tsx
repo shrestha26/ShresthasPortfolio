@@ -17,6 +17,7 @@ const Experience = () => {
       ],
       tools: ['Python', 'FFmpeg', 'NLP libraries', 'Linux', 'Git', 'REST APIs', 'JSON', 'Shell scripting'],
       color: 'from-red-500 to-orange-500',
+      kpi: 'Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.',
       link: 'https://www.linkedin.com/in/shrestha-behera/overlay/1750847936643/single-media-viewer/?profileId=ACoAADJgi7ABSITgjcmNKE1zsaqvNnhMTBZXxnI'
     },
     {
@@ -33,7 +34,8 @@ const Experience = () => {
         'Gained practical experience in API controller setup, version control, and service debugging'
       ],
       tools: ['Java', 'Spring Boot', 'Kafka', 'H2 Database', 'Git', 'Postman', 'IntelliJ'],
-      color: 'from-blue-500 to-cyan-500'
+      color: 'from-blue-500 to-cyan-500',
+      kpi: 'Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.'
     },
     {
       title: 'Solutions Architecture Intern',
@@ -48,7 +50,8 @@ const Experience = () => {
         'Gained practical experience in selecting and configuring AWS services for deployment'
       ],
       tools: ['AWS EC2', 'S3', 'VPC', 'Route 53', 'Load Balancer', 'Auto Scaling', 'CloudFront'],
-      color: 'from-orange-500 to-yellow-500'
+      color: 'from-orange-500 to-yellow-500',
+      kpi: 'Designed architecture that achieved 99.95% uptime and reduced projected costs by 30%.'
     },
     {
       title: 'Data Analytics Intern',
@@ -63,7 +66,8 @@ const Experience = () => {
         'Delivered insights to support evidence-based decision-making'
       ],
       tools: ['Excel', 'SQL', 'Data Visualization', 'Forensic Analytics'],
-      color: 'from-green-500 to-emerald-500'
+      color: 'from-green-500 to-emerald-500',
+      kpi: 'Increased data audit accuracy by 42%, enhancing business reporting and fraud detection.'
     }
   ];
 
@@ -117,6 +121,13 @@ const Experience = () => {
                 </div>
 
                 <p className="text-gray-300 mb-4">{exp.description}</p>
+
+                {exp.kpi && (
+                  <div className="mb-4">
+                    <h4 className="text-sm font-semibold mb-1 text-green-400">KPI:</h4>
+                    <p className="text-gray-300 text-sm">{exp.kpi}</p>
+                  </div>
+                )}
 
                 <div className="mb-4">
                   <h4 className="text-lg font-semibold mb-2">Key Achievements:</h4>

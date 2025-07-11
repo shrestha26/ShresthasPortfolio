@@ -26,7 +26,7 @@ const Projects = () => {
     title: 'Space Scientific Calculator',
     organization: 'ISRO',
     period: '2023',
-    description: 'KPI: Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.',
+    description: '– KPI: Improved service response efficiency by 38% through optimized backend APIs and microservices.',
     longDescription: 'Developed a space-scientific calculator tailored for ISRO scientists to assist in orbital mechanics and mission planning with advanced aerospace metrics computation.',
     features: [
       'Advanced aerospace metrics calculation',

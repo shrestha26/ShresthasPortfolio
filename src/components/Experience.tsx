@@ -124,8 +124,8 @@ const Experience = () => {
 
                 {exp.kpi && (
                   <div className="mb-4">
-                    <h4 className="text-sm font-semibold mb-1 text-green-400">KPI:</h4>
-                    <p className="text-gray-300 text-sm">{exp.kpi}</p>
+                    <h4 className="text-sm font-semibold mb-1 text-green-400">KPI:<p className="text-gray-300 text-sm">{exp.kpi}</p></h4>
+                    
                   </div>
                 )}
 

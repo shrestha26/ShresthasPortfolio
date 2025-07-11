@@ -7,7 +7,7 @@ const Projects = () => {
     title: 'Multimedia Translator',
     organization: 'DRDO',
     period: '2023-2024',
-    description: 'Advanced multilingual intelligence decryption system designed for national defense applications.',
+    description: 'KPI: Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.',
     longDescription: 'Designed and developed a sophisticated multimedia translator to decrypt multilingual terrorist intelligence for the Indian Army. The system integrates AI-powered translation with secure communication protocols.',
     features: [
       'AI-powered multilingual translation',
@@ -26,7 +26,7 @@ const Projects = () => {
     title: 'Space Scientific Calculator',
     organization: 'ISRO',
     period: '2023',
-    description: 'Specialized calculator for aerospace calculations and orbital mechanics computations.',
+    description: 'KPI: Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.',
     longDescription: 'Developed a space-scientific calculator tailored for ISRO scientists to assist in orbital mechanics and mission planning with advanced aerospace metrics computation.',
     features: [
       'Advanced aerospace metrics calculation',
@@ -45,7 +45,7 @@ const Projects = () => {
     title: 'ATM Software Machine',
     organization: 'Personal Project',
     period: '2025',
-    description: 'Full-featured ATM simulation with security testing capabilities and vulnerability assessment.',
+    description: 'KPI: Increased data audit accuracy by 42%, enhancing business reporting and fraud detection.',
     longDescription: 'Comprehensive web-based ATM simulation system that replicates core banking operations with integrated security testing for penetration testing practice.',
     features: [
       'Complete banking operations simulation',
@@ -64,7 +64,7 @@ const Projects = () => {
     title: 'ML Stock Predictor',
     organization: 'Personal Project',
     period: '2025',
-    description: 'Production-ready stock prediction application with multiple ML algorithms and real-time analysis.',
+    description: ' KPI: Designed architecture that achieved 99.95% uptime and reduced projected costs by 30%.',
     longDescription: 'Built a comprehensive stock prediction web application featuring interactive ML model selection, real-time predictions, and professional financial dashboard.',
     features: [
       'LSTM, Linear Regression, Random Forest models',

@@ -96,7 +96,7 @@ const Projects = () => {
                     {project.icon}
                     <div>
                       <h3 className="text-xl font-bold">{project.title}</h3>
-                      <div className={text-sm font-semibold bg-gradient-to-r ${project.color} bg-clip-text text-transparent}>
+                      <div className={`text-sm font-semibold bg-gradient-to-r ${project.color} bg-clip-text text-transparent`}>
                         {project.organization}
                       </div>
                     </div>

@@ -109,15 +109,14 @@ const Hero = () => {
             </button>
 
        <a
-         <a href="/SBRESUMELATESTONE.PDF" download>...</a>
-
-  href="/SBRESUMELATESTONE.PDF"
-  download
+  href="/mnt/data/SBRESUMELATESTONE.PDF"
+  download="Shrestha_Behera_Resume.pdf"
   className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
 >
   <Download size={20} />
   Download Resume
 </a>
+
 
 
           {/* Scroll Indicator */}

@@ -17,7 +17,7 @@ const Projects = () => {
       ],
       technologies: ['Python', 'FFmpeg', 'NLP libraries', 'Linux', 'REST APIs'],
       githubUrl: 'https://github.com/shrestha26/Multimedia-Translator',
-      liveUrl: 'https://shrestha26.github.io/Multimedia-Translator/',
+      liveUrl: 'https://guileless-frangipane-ddb221.netlify.app/',
       icon: <Shield className="text-red-400" size={24} />,
       color: 'from-red-500 to-orange-500'
     },

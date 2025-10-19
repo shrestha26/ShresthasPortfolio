@@ -34,7 +34,7 @@ const Education = () => {
 
             <div className="flex items-center justify-center gap-2 mb-6">
               <Star className="text-yellow-400" size={20} />
-              <span className="text-xl font-semibold">GPA: 9.5/10</span>
+              <span className="text-xl font-semibold">GPA: 7.28/10</span>
             </div>
 
             <div className="text-left max-w-3xl mx-auto">

@@ -21,7 +21,7 @@ const Projects = () => {
       liveUrl: 'https://guileless-frangipane-ddb221.netlify.app/',
       icon: <Shield className="text-red-400" size={24} />,
       color: 'from-red-500 to-orange-500',
-      image: '/project-images/multimedia.jpeg'
+      image: '/multimedia-translator.png'
     },
     {
       title: 'Space Scientific Calculator',

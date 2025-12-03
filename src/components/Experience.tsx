@@ -35,7 +35,8 @@ const Experience = () => {
       ],
       tools: ['Java', 'Spring Boot', 'Kafka', 'H2 Database', 'Git', 'Postman', 'IntelliJ'],
       color: 'from-blue-500 to-cyan-500',
-      kpi: 'Reduced intelligence decoding time by 45%, boosting operational readiness and threat response.'
+      kpi: 'Improved service response efficiency by 38% through optimized backend APIs and microservices.
+'
     },
     {
       title: 'Solutions Architecture Intern',

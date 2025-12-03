@@ -41,7 +41,7 @@ const Projects = () => {
       liveUrl: 'https://astounding-cendol-d4f12b.netlify.app/',
       icon: <Code className="text-blue-400" size={24} />,
       color: 'from-blue-500 to-cyan-500',
-      image: '/space-scientific-calculator.png'
+      // image: '/project-images/space.jpeg'
     },
     {
       title: 'ATM Software Machine',
@@ -61,7 +61,7 @@ const Projects = () => {
       liveUrl: 'https://vocal-gumdrop-b800ec.netlify.app/',
       icon: <Shield className="text-green-400" size={24} />,
       color: 'from-green-500 to-emerald-500',
-      image: '/atm-software-machine.png'
+      // image: '/project-images/atm.jpeg'
     },
     {
       title: 'ML Stock Predictor',
@@ -81,7 +81,7 @@ const Projects = () => {
       liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
       icon: <TrendingUp className="text-purple-400" size={24} />,
       color: 'from-purple-500 to-pink-500',
-      image: '/ml-stock-predictor.png'
+      // image: '/project-images/stock.jpeg'
     }
   ];
 
@@ -101,18 +101,21 @@ const Projects = () => {
               >
                 <div className="flex flex-col md:flex-row gap-6">
 
-                  {/* LEFT SIDE - Project Details */}
+                  {/* LEFT SECTION */}
                   <div className="md:basis-1/2 flex flex-col">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center gap-3">
                         {project.icon}
                         <div>
                           <h3 className="text-xl font-bold">{project.title}</h3>
-                          <div className={`text-sm font-semibold bg-gradient-to-r ${project.color} bg-clip-text text-transparent`}>
+                          <div
+                            className={`text-sm font-semibold bg-gradient-to-r ${project.color} bg-clip-text text-transparent`}
+                          >
                             {project.organization}
                           </div>
                         </div>
                       </div>
+
                       <div className="flex items-center gap-1 text-gray-400 text-sm">
                         <Calendar size={16} />
                         <span>{project.period}</span>
@@ -126,7 +129,10 @@ const Projects = () => {
                       <h4 className="text-sm font-semibold mb-2">Key Features:</h4>
                       <ul className="space-y-1">
                         {project.features.map((feature, fIndex) => (
-                          <li key={fIndex} className="flex items-start gap-2 text-gray-300 text-sm">
+                          <li
+                            key={fIndex}
+                            className="flex items-start gap-2 text-gray-300 text-sm"
+                          >
                             <span className="text-blue-400 mt-1">•</span>
                             {feature}
                           </li>
@@ -136,6 +142,65 @@ const Projects = () => {
 
                     <div className="mb-6">
                       <h4 className="text-sm font-semibold mb-2">Technologies:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {project.technologies.map((tech, tIndex) => (
+                          <span
+                            key={tIndex}
+                            className="px-2 py-1 bg-gray-700 text-xs rounded-full hover:bg-gray-600 transition-colors duration-200"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="flex gap-4 mt-auto">
+                      {project.githubUrl && (
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-all duration-200 hover:scale-105"
+                        >
+                          <Github size={16} />
+                          <span className="text-sm">Code</span>
+                        </a>
+                      )}
+                      {project.liveUrl && (
+                        <a
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-all duration-200 hover:scale-105"
+                        >
+                          <ExternalLink size={16} />
+                          <span className="text-sm">Live Demo</span>
+                        </a>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* RIGHT SECTION IMAGE */}
+                  {project.image && (
+                    <div className="md:basis-1/2 rounded-lg overflow-hidden shadow-lg flex">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
                       <div className="flex flex-wrap gap-2">
                         {project.technologies.map((tech, tIndex) => (
                           <span

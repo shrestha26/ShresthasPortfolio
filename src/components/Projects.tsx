@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'Multimedia Translator',
-      organization: 'DRDO',
+      organization: 'Associated with DRDO Project',
       period: '2023-2024',
       description: 'Advanced multilingual intelligence decryption system designed for national defense applications.',
       longDescription: 'Designed and developed a sophisticated multimedia translator to decrypt multilingual terrorist intelligence for the Indian Army. The system integrates AI-powered translation with secure communication protocols.',
@@ -23,7 +23,7 @@ const Projects = () => {
     },
     {
       title: 'Space Scientific Calculator',
-      organization: 'ISRO',
+      organization: 'Associated with ISRO Project',
       period: '2023',
       description: 'Specialized calculator for aerospace calculations and orbital mechanics computations.',
       longDescription: 'Developed a space-scientific calculator tailored for ISRO scientists to assist in orbital mechanics and mission planning with advanced aerospace metrics computation.',
@@ -41,7 +41,7 @@ const Projects = () => {
     },
     {
       title: 'ATM Software Machine',
-      organization: 'Personal Project',
+      organization: 'Associated with JPMC Project',
       period: '2025',
       description: 'Full-featured ATM simulation with security testing capabilities and vulnerability assessment.',
       longDescription: 'Comprehensive web-based ATM simulation system that replicates core banking operations with integrated security testing for penetration testing practice.',
@@ -59,7 +59,7 @@ const Projects = () => {
     },
     {
       title: 'ML Stock Predictor',
-      organization: 'Personal Project',
+      organization: 'Associated with JPMC Project',
       period: '2025',
       description: 'Production-ready stock prediction application with multiple ML algorithms and real-time analysis.',
       longDescription: 'Built a comprehensive stock prediction web application featuring interactive ML model selection, real-time predictions, and professional financial dashboard.',
@@ -69,7 +69,7 @@ const Projects = () => {
         'Interactive financial dashboard',
         'Model performance comparisons'
       ],
-      technologies: ['React', 'TailwindCSS', 'Chart.js', 'Python', 'Netlify'],
+      technologies: ['React', 'TailwindCSS', 'Material UI', 'Chart.js', 'Python', 'Netlify'],
       githubUrl: 'https://github.com/shrestha26/Machine-Learning-Stock-Prediction',
       liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
       icon: <TrendingUp className="text-purple-400" size={24} />,

@@ -40,7 +40,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/shrestha26/Space-Scientific-Calculator',
       liveUrl: 'https://astounding-cendol-d4f12b.netlify.app/',
       icon: <Code className="text-blue-400" size={24} />,
-      color: 'from-blue-500 to-cyan-500',
+      color: 'from-blue-500 to-cyan-500'
       //image: '/project-images/space.jpeg'
     },
     {
@@ -60,7 +60,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/shrestha26/ATM-software',
       liveUrl: 'https://vocal-gumdrop-b800ec.netlify.app/',
       icon: <Shield className="text-green-400" size={24} />,
-      color: 'from-green-500 to-emerald-500',
+      color: 'from-green-500 to-emerald-500'
       //image: '/project-images/atm.jpeg'
     },
     {
@@ -80,7 +80,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/shrestha26/Machine-Learning-Stock-Prediction',
       liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
       icon: <TrendingUp className="text-purple-400" size={24} />,
-      color: 'from-purple-500 to-pink-500',
+      color: 'from-purple-500 to-pink-500'
       //image: '/project-images/stock.jpeg'
     }
   ];

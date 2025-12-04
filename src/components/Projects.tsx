@@ -61,7 +61,7 @@ const Projects = () => {
       liveUrl: 'https://vocal-gumdrop-b800ec.netlify.app/',
       icon: <Shield className="text-green-400" size={24} />,
       color: 'from-green-500 to-emerald-500',
-      image: '/project-images/atm.jpeg'
+      image: '/Secure-Bank-ATM.png'
     },
     {
       title: 'ML Stock Predictor',

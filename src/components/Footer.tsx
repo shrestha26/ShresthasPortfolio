@@ -19,7 +19,7 @@ const Footer = () => {
           </p>
           
           <div className="text-xs text-gray-600">
-            <p>Cybersecurity Expert • Software Engineer • Cloud Solutions Architect</p>
+            <p> • Software Engineer • </p>
             <p className="mt-1">Passionate about securing digital infrastructures and building scalable solutions</p>
           </div>
         </div>

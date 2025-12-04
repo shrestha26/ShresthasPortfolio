@@ -55,12 +55,12 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-up">
-            Cybersecurity Expert • Software Engineer • Cloud Solutions Architect
+             • Software Engineer • 
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-200">
             Passionate about securing digital infrastructures and building scalable solutions. 
-            Experience with DRDO, JPMorgan Chase, AWS, and Deloitte.
+            Experience with DRDO, JPMorgan Chase.
           </p>
 
           {/* Contact Links */}

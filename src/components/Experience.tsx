@@ -23,9 +23,9 @@ const Experience = () => {
     {
       title: 'Software Engineer',
       company: 'JPMorgan Chase & Co.',
-      location: 'Remote',
+      location: 'New-Delhi',
       period: 'Jul 2024 – May 2025',
-      type: 'Virtual Internship',
+      type: 'Full-Time',
       description: 'Completed a job simulation that involved real-world frontend and backend development tasks, providing hands-on experience with full-stack development in a banking environment.',
       highlights: [
         'Integrated Kafka for real-time microservice communication',

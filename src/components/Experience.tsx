@@ -21,12 +21,12 @@ const Experience = () => {
       link: 'https://www.linkedin.com/in/shrestha-behera/overlay/1750847936643/single-media-viewer/?profileId=ACoAADJgi7ABSITgjcmNKE1zsaqvNnhMTBZXxnI'
     },
     {
-      title: 'Software Engineering Intern',
+      title: 'Software Engineer',
       company: 'JPMorgan Chase & Co.',
       location: 'Remote',
       period: 'Jul 2024 – May 2025',
       type: 'Virtual Internship',
-      description: 'Completed a job simulation focused on real-world backend development tasks in a banking context.',
+      description: 'Completed a job simulation that involved real-world frontend and backend development tasks, providing hands-on experience with full-stack development in a banking environment.',
       highlights: [
         'Integrated Kafka for real-time microservice communication',
         'Utilized H2 in-memory database for testing and development',

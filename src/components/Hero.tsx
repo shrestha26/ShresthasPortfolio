@@ -60,7 +60,7 @@ const Hero = () => {
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-200">
             Passionate about securing digital infrastructures and building scalable solutions. 
-            Experience with DRDO, JPMorgan Chase.
+            Experience with Leading Organization such as; DRDO, JPMorgan Chase.
           </p>
 
           {/* Contact Links */}

@@ -57,11 +57,11 @@ const Projects = () => {
         'Real ATM interface emulation'
       ],
       technologies: ['PHP', 'TypeScript', 'MySQL', 'JavaScript', 'Burp Suite'],
-      githubUrl: 'https://github.com/shrestha26/ATM-software',
+      githubUrl: 'https://github.com/shrestha26/ATM-Software-Machine',
       liveUrl: 'https://vocal-gumdrop-b800ec.netlify.app/',
       icon: <Shield className="text-green-400" size={24} />,
       color: 'from-green-500 to-emerald-500',
-      image: '/Secure-Bank-ATM.png'
+      image: '/ATM-Software-Machine.png'
     },
     {
       title: 'ML Stock Predictor',

@@ -81,7 +81,7 @@ const Projects = () => {
       liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
       icon: <TrendingUp className="text-purple-400" size={24} />,
       color: 'from-purple-500 to-pink-500',
-      image: '/ML-Stock-Predictor.png'
+      image: '/Machine-Learning-Stock-Prediction.png'
     }
   ];
 

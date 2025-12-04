@@ -41,7 +41,7 @@ const Projects = () => {
       liveUrl: 'https://astounding-cendol-d4f12b.netlify.app/',
       icon: <Code className="text-blue-400" size={24} />,
       color: 'from-blue-500 to-cyan-500',
-      image: '/Spcae-Scientific-Calculator.png'
+      image: '/Space-Scientific-Calculator.png'
     },
     {
       title: 'ATM Software Machine',

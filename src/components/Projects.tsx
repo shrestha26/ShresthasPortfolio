@@ -77,7 +77,7 @@ const Projects = () => {
         'Model performance comparisons'
       ],
       technologies: ['React', 'TailwindCSS', 'Material UI', 'Chart.js', 'Python'],
-      githubUrl: 'https://github.com/shrestha26/Machine Learning Stock Prediction',
+      githubUrl: 'https://github.com/shrestha26/Machine-Learning-Stock-Prediction',
       liveUrl: 'https://illustrious-lolly-fc90d9.netlify.app',
       icon: <TrendingUp className="text-purple-400" size={24} />,
       color: 'from-purple-500 to-pink-500',

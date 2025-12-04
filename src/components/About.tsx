@@ -18,7 +18,7 @@ const About = () => {
           <p className="text-lg text-gray-300 mb-12 leading-relaxed">
             I'm a passionate cybersecurity expert and software engineer with a strong foundation in 
             cloud computing and data analytics. With hands-on experience at leading organizations 
-            like DRDO, JPMorgan Chase, AWS, and Deloitte, I specialize in building secure, scalable 
+            like DRDO, JPMorgan Chase.I specialize in building secure, scalable 
             solutions and defending against cyber threats.
           </p>
 

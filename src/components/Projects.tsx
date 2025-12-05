@@ -177,7 +177,7 @@ const Projects = () => {
 
                   {/* RIGHT SECTION - 50% IMAGE */}
                   {project.image && (
-                    <div className="md:basis-1/2 h-64 rounded-lg overflow-hidden shadow-lg">
+                    <div className="md:basis-1/2 h-100 rounded-lg overflow-hidden shadow-lg">
                       <img
                         src={project.image}
                         alt={project.title}

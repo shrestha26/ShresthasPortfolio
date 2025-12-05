@@ -101,7 +101,7 @@ const Projects = () => {
               >
                 <div className="flex flex-col md:flex-row gap-6">
 
-                  {/* LEFT SECTION */}
+                  {/* LEFT SECTION - 50% */}
                   <div className="md:basis-1/2 flex flex-col">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center gap-3">
@@ -175,9 +175,9 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  {/* RIGHT SECTION - FIXED HEIGHT IMAGE */}
+                  {/* RIGHT SECTION - 50% IMAGE */}
                   {project.image && (
-                    <div className="md:basis-1/2 h-[100px] rounded-lg overflow-hidden shadow-lg">
+                    <div className="md:basis-1/2 h-100 rounded-lg overflow-hidden shadow-lg">
                       <img
                         src={project.image}
                         alt={project.title}

@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Profile Image Section */}
-          <div className="mt-6 mb-2 animate-fade-in">
+          <div className="mt-5 mb-2 animate-fade-in">
             <div className="relative inline-block">
               <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-2 relative">
                 {/* Animated border rings */}

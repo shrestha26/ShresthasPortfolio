@@ -11,7 +11,7 @@ const Skills = () => {
     {
       title: 'Technologies & Frameworks',
       icon: <Cpu className="text-purple-400" size={24} />,
-      skills: ['Spring Boot', 'React.js', 'Express', 'Node', 'Kafka', 'REST APIs', 'NLP Libraries', 'MongoDB']
+      skills: ['Spring Boot', 'React.js', 'Express.js', 'Node.js', 'Kafka', 'REST APIs', 'NLP Libraries', 'MongoDB']
     },
     {
       title: 'Cloud & Infrastructure',

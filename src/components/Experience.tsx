@@ -35,7 +35,7 @@ const Experience = () => {
       ],
       tools: ['Java', 'Spring Boot', 'Kafka', 'H2 Database', 'Git', 'Postman', 'IntelliJ'],
       color: 'from-blue-500 to-cyan-500',
-      kpi: 'Improved service response efficiency by 38% through optimized backend APIs and microservices.'
+      kpi: 'Improved overall system performance by boosting backend response efficiency by 38% through optimized APIs and microservices,and enhancing frontend speed with a 42% reduction in load times via component-level optimizations and efficient state management..'
 
     },
     {

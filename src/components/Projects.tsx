@@ -27,7 +27,7 @@ const Projects = () => {
       technologies: ["Python", "FFmpeg", "NLP libraries", "Linux", "REST APIs"],
       githubUrl: "https://github.com/shrestha26/Multimedia-Translator",
       liveUrl: "https://guileless-frangipane-ddb221.netlify.app/",
-      icon: Shield, // FIXED
+      icon: Shield,
       color: "from-red-500 to-orange-500",
       image: "/multimedia-translator.png",
     },
@@ -48,7 +48,7 @@ const Projects = () => {
       technologies: ["React.js", "MongoDB", "JavaScript", "HTML", "CSS"],
       githubUrl: "https://github.com/shrestha26/Space-Scientific-Calculator",
       liveUrl: "https://astounding-cendol-d4f12b.netlify.app/",
-      icon: Code, // FIXED
+      icon: Code,
       color: "from-blue-500 to-cyan-500",
       image: "/Space-Scientific-Calculator.png",
     },
@@ -69,7 +69,7 @@ const Projects = () => {
       technologies: ["PHP", "TypeScript", "MySQL", "JavaScript", "Burp Suite"],
       githubUrl: "https://github.com/shrestha26/ATM-Software-Machine",
       liveUrl: "https://vocal-gumdrop-b800ec.netlify.app/",
-      icon: Shield, // FIXED
+      icon: Shield,
       color: "from-green-500 to-emerald-500",
       image: "/ATM-Software-Machine.png",
     },
@@ -91,7 +91,7 @@ const Projects = () => {
       githubUrl:
         "https://github.com/shrestha26/Machine-Learning-Stock-Prediction",
       liveUrl: "https://illustrious-lolly-fc90d9.netlify.app",
-      icon: TrendingUp, // FIXED
+      icon: TrendingUp,
       color: "from-purple-500 to-pink-500",
       image: "/Machine-Learning-Stock-Prediction.png",
     },
@@ -116,11 +116,11 @@ const Projects = () => {
                 >
                   <div className="flex flex-col md:flex-row gap-6">
 
-                    {/* LEFT SIDE */}
+                    {/* LEFT SECTION */}
                     <div className="md:basis-1/2 flex flex-col">
                       <div className="flex items-start justify-between mb-4">
                         <div className="flex items-center gap-3">
-                          <Icon className="text-red-400" size={24} /> {/* FIXED */}
+                          <Icon className="text-red-400" size={24} />
                           <div>
                             <h3 className="text-xl font-bold">
                               {project.title}
@@ -191,6 +191,7 @@ const Projects = () => {
                             <span className="text-sm">Code</span>
                           </a>
                         )}
+
                         {project.liveUrl && (
                           <a
                             href={project.liveUrl}
@@ -205,21 +206,23 @@ const Projects = () => {
                       </div>
                     </div>
 
-                    {/* RIGHT SIDE (IMAGE – UNIFORM HEIGHT ALWAYS) */}
+                    {/* RIGHT SECTION (FULL HEIGHT IMAGE) */}
                     {project.image && (
-                      <div className="md:basis-1/2 h-56 md:h-72 rounded-lg overflow-hidden shadow-lg">
+                      <div className="md:basis-1/2 flex-1 relative rounded-lg overflow-hidden shadow-lg min-h-60">
                         <img
                           src={project.image}
                           alt={project.title}
-                          className="w-full h-full object-cover"
+                          className="absolute inset-0 w-full h-full object-cover"
                         />
                       </div>
                     )}
+
                   </div>
                 </div>
               );
             })}
           </div>
+
         </div>
       </div>
     </section>

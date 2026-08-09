@@ -26,7 +26,7 @@ const Projects = () => {
       ],
       technologies: ["Python", "FFmpeg", "NLP libraries", "Linux", "REST APIs"],
       githubUrl: "https://github.com/shrestha26/Multimedia-Translator",
-      liveUrl: "https://drdo-multimedia-translator.vercel.app/,
+      liveUrl: "https://drdo-multimedia-translator.vercel.app/",
       icon: Shield,
       color: "from-red-500 to-orange-500",
       image: "/multimedia-translator.png",

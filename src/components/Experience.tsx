@@ -12,21 +12,25 @@ const Experience = () => {
     description:
       'Working as a Quantum AI Software Developer at Cognizant, contributing to AI-driven solutions and serving as an Associated Google Project Consultant.',
     highlights: [
-      'Developing and implementing AI-powered solutions leveraging machine learning and emerging quantum computing concepts',
+      'Developing and implementing AI-powered solutions and AI Bots leveraging machine learning and emerging quantum computing concepts',
       'Working on Google projects as an Associated Google Project Consultant',
       'Designing scalable, efficient, and secure software solutions for enterprise applications',
       'Collaborating with cross-functional teams to develop and deliver innovative AI solutions'
         ],
     tools: [
-      'Python',
-      'TensorFlow',
-      'PyTorch',
-      'Google Cloud',
-      'Machine Learning',
-      'Quantum AI',
-      'Docker',
-      'Kubernetes',
-      'Git'
+  'Python',
+  'Qiskit',
+  'PennyLane',
+  'Cirq',
+  'TensorFlow Quantum',
+  'Quantum Machine Learning',
+  'Quantum Computing',
+  'TensorFlow',
+  'PyTorch',
+  'Google Cloud',
+  'Docker',
+  'Kubernetes',
+  'Git'
     ],
     color: 'from-blue-500 to-purple-500',
     kpi:

@@ -7,7 +7,7 @@ const Experience = () => {
     title: 'Quantum AI Software Developer',
     company: 'Cognizant',
     location: 'India',
-    period: 'May 2026 – Present',
+    period: 'Jan-2026 - May-2026',
     type: 'Full-time',
     description:
       'Working as a Quantum AI Software Developer at Cognizant, contributing to AI-driven solutions and serving as an Associated Google Project Consultant.',

@@ -30,7 +30,7 @@ const Experience = () => {
     ],
     color: 'from-blue-500 to-purple-500',
     kpi:
-      'Contributing to AI and quantum-focused software solutions while supporting Google-associated projects.',
+      'Achieved 100% successful delivery of AI-driven solutions for international clients, ensuring timely and high-quality project outcomes.',
     link:
       'https://www.linkedin.com/in/shrestha-behera/overlay/Certifications/323226814/treasury/?profileId=ACoAADJgi7ABSITgjcmNKE1zsaqvNnhMTBZXxnI'
   },

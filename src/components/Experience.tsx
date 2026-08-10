@@ -4,6 +4,38 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+    title: 'Quantum AI Software Developer',
+    company: 'Cognizant',
+    location: 'India',
+    period: 'May 2026 – Present',
+    type: 'Full-time',
+    description:
+      'Working as a Quantum AI Software Developer at Cognizant, contributing to AI-driven solutions and serving as an Associated Google Project Consultant.',
+    highlights: [
+      'Developing and implementing AI-powered solutions leveraging machine learning and emerging quantum computing concepts',
+      'Working on Google projects as an Associated Google Project Consultant',
+      'Designing scalable, efficient, and secure software solutions for enterprise applications',
+      'Collaborating with cross-functional teams to develop and deliver innovative AI solutions'
+        ],
+    tools: [
+      'Python',
+      'TensorFlow',
+      'PyTorch',
+      'Google Cloud',
+      'Machine Learning',
+      'Quantum AI',
+      'Docker',
+      'Kubernetes',
+      'Git'
+    ],
+    color: 'from-blue-500 to-purple-500',
+    kpi:
+      'Contributing to AI and quantum-focused software solutions while supporting Google-associated projects.',
+    link:
+      'https://www.linkedin.com/in/shrestha-behera/overlay/Certifications/323226814/treasury/?profileId=ACoAADJgi7ABSITgjcmNKE1zsaqvNnhMTBZXxnI'
+  },
+
+  {
       title: 'Cybersecurity Intern',
       company: 'DRDO - Defence Electronics Research Laboratory',
       location: 'Hyderabad, India',

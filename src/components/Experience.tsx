@@ -10,7 +10,7 @@ const Experience = () => {
     period: 'Jan-2026 - May-2026',
     type: 'Full-time',
     description:
-      'Working as a Quantum AI Software Developer at Cognizant, contributing to AI-driven solutions and serving as an Associated Google Project Consultant.',
+      'Worked as a Quantum AI Software Developer at Cognizant, contributing to AI-driven solutions and serving as an Associated Google Project Consultant.',
     highlights: [
       'Developing and implementing AI-powered solutions and AI Bots leveraging machine learning and emerging quantum computing concepts',
       'Working on Google projects as an Associated Google Project Consultant',
@@ -31,6 +31,7 @@ const Experience = () => {
   'Docker',
   'Kubernetes',
   'Git'
+  'RAG'
     ],
     color: 'from-blue-500 to-purple-500',
     kpi:

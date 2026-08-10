@@ -30,7 +30,7 @@ const Experience = () => {
   'Google Cloud',
   'Docker',
   'Kubernetes',
-  'Git'
+  'Git',
   'RAG'
     ],
     color: 'from-blue-500 to-purple-500',
